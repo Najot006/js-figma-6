@@ -1,0 +1,818 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+    margin-top: 20px;
+}
+
+body {
+    background: #FFF;
+}
+
+.nav-ul ul {
+    display: flex;
+    gap: 40px;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+
+.julia {
+    color: blue;
+}
+
+.nav-btn button {
+    width: 161px;
+    height: 52px;
+    border-radius: 6px;
+    background: #0082F4;
+    color: #FFF;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+header {
+    margin-top: 191px;
+}
+
+.div_usha {
+    display: flex;
+    gap: 120px;
+}
+
+.hedr h3 {
+    color: #0080FD;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+.hedr h1 {
+    width: 531px;
+    height: 148px;
+    flex-shrink: 0;
+    color: #000;
+    font-size: 60.55px;
+}
+
+.hedr h1 span {
+    color: #0082F4;
+    font-size: 60.55px;
+}
+
+.hedr p {
+    width: 436px;
+    height: 46px;
+    color: #000;
+    font-size: 16px;
+    opacity: 0.6;
+    margin-top: 20px;
+}
+
+.ayiq {
+    width: 194px;
+    height: 63px;
+    color: #FFF;
+    font-size: 20px;
+    border-radius: 10px;
+    background: #0082F4;
+    border: none;
+    cursor: pointer;
+}
+
+.ayiq2 {
+    width: 194px;
+    height: 63px;
+    color: #FFF;
+    font-size: 20px;
+    border-radius: 10px;
+    background: #0082F4;
+    border: none;
+    cursor: pointer;
+}
+
+.misha {
+    width: 188px;
+    height: 63px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #0082F4;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    color: #000;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-vid {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.usha {
+    display: flex;
+}
+
+.div-usha2 {
+    display: flex;
+    gap: 200px;
+}
+
+.hedr-h3 {
+    color: #0080FD;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+.hedr-h1 {
+    width: 496px;
+    height: 122px;
+    color: #000;
+    font-size: 49px;
+    margin-top: 20px;
+}
+
+.hedr-p {
+    width: 503px;
+    height: 90px;
+    color: #000;
+    font-size: 20px;
+    opacity: 0.6;
+    margin-top: 20px;
+}
+
+.hedr2 {
+    margin-top: 170px;
+}
+
+.hedr-titl {
+    margin-top: 60px;
+}
+
+@media (min-width: 990px) and (max-width: 1200px) {
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 200px;
+        margin-top: 20px;
+    }
+
+    header {
+        margin-top: 150px;
+    }
+
+    .div_usha {
+        display: flex;
+        gap: 0px;
+        margin: 0px 90px 0px 90px;
+    }
+
+    .hedr h3 {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+
+    .hedr h1 {
+        width: 500px;
+        height: 130px;
+        font-size: 55px;
+        margin-top: 15px;
+    }
+
+    .left-img img {
+        width: 500px;
+    }
+
+    .hedr p {
+        width: 470px;
+        height: 46px;
+        font-size: 20px;
+    }
+
+    .ayiq {
+        width: 194px;
+        height: 63px;
+        font-size: 20px;
+    }
+
+    .btn-vid {
+        margin-top: 60px;
+    }
+
+    .hedr2 {
+        margin-top: 90px;
+    }
+
+    .div-usha2 {
+        display: flex;
+        gap: 50px;
+        margin: 0px 60px 0px 90px;
+    }
+
+    .hedr-h3 {
+        font-size: 35px;
+        margin-top: 15px;
+    }
+
+    .hedr-h1 {
+        height: 122px;
+        font-size: 47px;
+        margin-top: 15px;
+    }
+
+    .hedr-p {
+        width: 470px;
+        height: 90px;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .ayiq2 {
+        width: 230px;
+        height: 67px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 990px) and (min-width: 769px) {
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 150px;
+        margin-top: 20px;
+    }
+
+    header {
+        margin-top: 150px;
+    }
+
+    .nav-ul ul {
+        display: flex;
+        gap: 40px;
+    }
+
+    .julia {
+        font-size: 30px;
+    }
+
+    .a-tag {
+        font-size: 30px;
+    }
+
+    .div_usha {
+        display: flex;
+        gap: 0px;
+        margin: 0px 90px 0px 90px;
+    }
+
+    .hedr h3 {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+
+    .hedr h1 {
+        width: 500px;
+        height: 130px;
+        font-size: 55px;
+        margin-top: 15px;
+    }
+
+    .left-img img {
+        width: 500px;
+    }
+
+    .hedr p {
+        width: 470px;
+        height: 46px;
+        font-size: 20px;
+    }
+
+    .ayiq {
+        width: 194px;
+        height: 63px;
+        font-size: 20px;
+    }
+
+    .btn-vid {
+        margin-top: 60px;
+    }
+
+    .hedr2 {
+        margin-top: 90px;
+    }
+
+    .div-usha2 {
+        display: flex;
+        gap: 50px;
+        margin: 0px 60px 0px 90px;
+    }
+
+    .hedr-h3 {
+        font-size: 35px;
+        margin-top: 15px;
+    }
+
+    .hedr-h1 {
+        height: 122px;
+        font-size: 47px;
+        margin-top: 15px;
+    }
+
+    .hedr-p {
+        width: 470px;
+        height: 90px;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .ayiq2 {
+        width: 230px;
+        height: 67px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 769px) and (min-width: 447px) {
+    .navbar {
+        display: flex;
+        gap: 300px;
+        margin-top: 40px;
+    }
+
+    .nav-img img {
+        width: 150px;
+        margin-left: 30px;
+    }
+
+    .nav-btn button {
+        width: 261px;
+        height: 82px;
+        border-radius: 10px;
+        font-size: 33px;
+    }
+
+    .nav-ul ul {
+        display: flex;
+        gap: 440px;
+        display: none;
+    }
+
+    header {
+        margin-top: 150px;
+    }
+
+    .hedr h3 {
+        font-size: 90px;
+        margin-top: 15px;
+    }
+
+    .hedr h1 {
+        width: 831px;
+        height: 148px;
+        font-size: 90px;
+        margin-top: 40px;
+    }
+
+    .hedr h1 span {
+        font-size: 95px;
+    }
+
+    .hedr p {
+        width: 100%;
+        height: 246px;
+        font-size: 40px;
+        margin-top: 120px;
+    }
+
+    .btn-vid {
+        display: flex;
+        gap: 230px;
+        margin-top: 10px;
+    }
+
+    .hedr {
+        margin-left: 50px;
+    }
+
+    .ayiq {
+        width: 294px;
+        height: 83px;
+        color: #FFF;
+        font-size: 30px;
+    }
+
+    .misha {
+        width: 294px;
+        height: 83px;
+        border-radius: 10px;
+        gap: 15px;
+        font-size: 16px;
+    }
+
+    .btn-vid span img {
+        width: 50px;
+    }
+
+    .btn-vid button {
+        font-size: 30px;
+    }
+
+    .left-img img {
+        width: 900px;
+    }
+
+    .div_usha {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 190px;
+    }
+
+    .div-usha2 {
+        display: flex;
+        gap: 200px;
+        flex-direction: column;
+    }
+
+    .div-usha2 img {
+        width: 930px;
+        margin-left: 170px;
+    }
+
+    .hedr-titl {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .hedr-h3 {
+        font-size: 100px;
+        margin-left: 110px;
+    }
+
+    .hedr-h1 {
+        width: 100%;
+        height: 100px;
+        font-size: 100px;
+        margin-left: 280px;
+        margin-top: 50px;
+    }
+
+    .hedr-p {
+        width: 100%;
+        height: 200px;
+        font-size: 40px;
+        margin-top: 200px;
+        margin-left: 150px;
+    }
+
+    .btn-vid button {
+        width: 461px;
+        height: 102px;
+        font-size: 50px;
+        margin-left: 150px;
+    }
+}
+
+@media (max-width: 447px) {
+    .navbar {
+        display: flex;
+        gap: 300px;
+        margin-top: 40px;
+    }
+
+    .nav-img img {
+        width: 150px;
+        margin-left: 30px;
+    }
+
+    .nav-btn button {
+        width: 261px;
+        height: 82px;
+        border-radius: 10px;
+        font-size: 33px;
+    }
+
+    .nav-ul ul {
+        display: flex;
+        gap: 440px;
+        display: none;
+    }
+
+    header {
+        margin-top: 150px;
+    }
+
+    .hedr h3 {
+        font-size: 90px;
+        margin-top: 15px;
+    }
+
+    .hedr h1 {
+        width: 831px;
+        height: 148px;
+        font-size: 90px;
+        margin-top: 40px;
+    }
+
+    .hedr h1 span {
+        font-size: 95px;
+    }
+
+    .hedr p {
+        width: 100%;
+        height: 246px;
+        font-size: 40px;
+        margin-top: 120px;
+    }
+
+    .btn-vid {
+        display: flex;
+        gap: 230px;
+        margin-top: 10px;
+    }
+
+    .hedr {
+        margin-left: 50px;
+    }
+
+    .ayiq {
+        width: 294px;
+        height: 83px;
+        color: #FFF;
+        font-size: 30px;
+    }
+
+    .misha {
+        width: 294px;
+        height: 83px;
+        border-radius: 10px;
+        gap: 15px;
+        font-size: 16px;
+    }
+
+    .btn-vid span img {
+        width: 50px;
+    }
+
+    .btn-vid button {
+        font-size: 30px;
+    }
+
+    .left-img img {
+        width: 900px;
+    }
+
+    .div_usha {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 190px;
+    }
+
+    .div-usha2 {
+        display: flex;
+        gap: 200px;
+        flex-direction: column;
+    }
+
+    .div-usha2 img {
+        width: 930px;
+        margin-left: 170px;
+    }
+
+    .hedr-titl {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .hedr-h3 {
+        font-size: 100px;
+        margin-left: 110px;
+    }
+
+    .hedr-h1 {
+        width: 100%;
+        height: 100px;
+        font-size: 100px;
+        margin-left: 280px;
+        margin-top: 50px;
+    }
+
+    .hedr-p {
+        width: 100%;
+        height: 200px;
+        font-size: 40px;
+        margin-top: 200px;
+        margin-left: 150px;
+    }
+
+    .btn-vid button {
+        width: 461px;
+        height: 102px;
+        font-size: 50px;
+        margin-left: 150px;
+    }
+}
+
+
+/* ................. Main ................... */
+
+.main-first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 212px;
+}
+
+.start {
+    color: #000;
+    font-size: 28px;
+    margin-top: 60px;
+}
+
+.start2 {
+    color: #000;
+    font-size: 28px;
+    margin-top: 60px;
+}
+
+.start3 {
+    color: #000;
+    font-size: 28px;
+    margin-top: 60px;
+}
+
+.lorem {
+    width: 324px;
+    color: #000;
+    text-align: center;
+    opacity: 0.7;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.main-second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-usha {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.main2-leavel h1 {
+    width: 712px;
+    color: #000;
+    font-size: 49px;
+}
+
+.main2-leavel {
+    display: flex;
+    gap: 275px;
+    margin-top: 124px;
+}
+
+.bosh {
+    margin-top: 180px;
+}
+
+.images {
+    margin-top: 60px;
+    display: flex;
+    gap: 60px;
+}
+
+.svg {
+    cursor: pointer;
+}
+
+.main3-lavel {
+    width: 100%;
+    height: 250px;
+    flex-shrink: 0;
+    background: rgba(197, 197, 197, 0.3);
+}
+
+.main-lavel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-lavel h2 {
+    color: #058AFF;
+    text-align: right;
+    font-size: 32px;
+    margin-top: 75px;
+}
+
+.main-lavel h5 {
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    opacity: 0.7;
+    margin-top: 15px;
+}
+
+.inpbtn input {
+    width: 400px;
+    height: 42px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 30px;
+}
+
+.inpbtn button {
+    width: 102px;
+    height: 42px;
+    border: none;
+    border-radius: 10px;
+    background: #0082F4;
+    color: #FFF;
+    font-size: 20px;
+}
+
+.foter-usha {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 179px;
+    margin-top: 60px;
+}
+
+ul li {
+    color: #000;
+    font-size: 19px;
+    opacity: 0.7;
+    margin-top: 15px;
+}
+
+span li {
+    color: #000;
+    font-size: 25px;
+}
+
+.foterni-pasi {
+    background: linear-gradient(180deg, #058AFF 0%, rgba(57, 55, 206, 0.87) 97.91%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 140px;
+    width: 100%;
+    height: 80px;
+}
+
+.facebokga {
+    display: flex;
+    gap: 20px;
+}
+
+.divv p {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    /* 30px */
+}
